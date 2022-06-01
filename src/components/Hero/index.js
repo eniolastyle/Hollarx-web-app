@@ -27,10 +27,11 @@ export const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Mobile Technology Made Easy</HeroH1>
+        <HeroH1>Mobile Technology Innovation</HeroH1>
         <HeroP>
           Training outstanding Mobile technology Engineers in Nigeria and
-          beyond.
+          beyond. Aspiring to be the leading mobile components producer in
+          Africa
         </HeroP>
         <HeroSpan>Efficiency we speak</HeroSpan>
         <HeroBtnWrapper>
