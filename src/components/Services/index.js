@@ -22,7 +22,7 @@ export const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesImg src={Repair} />
-          <ServicesH2>Mobile Repair</ServicesH2>
+          <ServicesH2>Mobile Maintainance</ServicesH2>
           <ServicesP>
             We fix all kinds of mobile problems and our solutions assure you
             rest of mind.
