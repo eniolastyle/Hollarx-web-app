@@ -111,8 +111,8 @@ export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
   text-align: center;
-  line-height: 1.2rem;
-  letter-spacing: 0.05rem;
+  /* line-height: 1.2rem;
+  letter-spacing: 0.05rem; */
 `;
 export const SocialIcons = styled.div`
   display: flex;

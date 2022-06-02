@@ -108,7 +108,9 @@ export const PartnerContainer = styled.div`
 `;
 
 export const PartnerImg = styled.img`
-  height: 7rem;
+  height: 6rem;
+  height: ${({ hg }) => hg}rem;
+  margin-top: ${({ mg }) => mg}rem;
 `;
 
 export const ProjectLink = styled.button`
