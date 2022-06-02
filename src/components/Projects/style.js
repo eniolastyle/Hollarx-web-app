@@ -102,11 +102,42 @@ export const PartnerContainer = styled.div`
   margin-top: 2rem;
 
   @media screen and (max-width: 768px) {
-    gap: 1rem;
+    gap: 0.5rem;
     flex-direction: column;
   }
 `;
 
 export const PartnerImg = styled.img`
   height: 7rem;
+`;
+
+export const ProjectLink = styled.button`
+  border-radius: 50px;
+  background: #010606;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: var(--primary-main-color);
+    color: #010600;
+  }
+`;
+
+export const Pagination = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 `;

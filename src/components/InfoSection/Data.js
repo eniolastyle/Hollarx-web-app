@@ -25,7 +25,7 @@ export const homeObjTwo = {
   topLine: "The future we dream",
   headline: "No 1, Mobile Technology Institution",
   description:
-    "Our Mission is to Empower at least a million of African Youth with Mobile Enigineering while The Vision is to be at the verge of Mobile Technology Production",
+    "Our Mission is to Empower at least a million African Youth with Mobile Enigineering, while The Vision is to be at the apex of Africa's Mobile Technology Production.",
   buttonLabel: "Our Services",
   imgStart: true,
   img: require("../../images/svg2.svg"),

@@ -29,7 +29,7 @@ export const Sidebar = ({ isOpen, toggle }) => {
             Services
           </SidebarLink>
           <SidebarLink to="projects" onClick={toggle}>
-            Projects
+            Success
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

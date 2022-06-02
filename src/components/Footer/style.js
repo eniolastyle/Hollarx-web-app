@@ -24,11 +24,13 @@ export const FooterLinksContainer = styled.div`
 `;
 export const FooterLinksWrapper = styled.div`
   display: flex;
+  gap: 3rem;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 0;
   }
 
   @media screen and (max-width: 420px) {
@@ -108,13 +110,16 @@ export const SocialLogo = styled(LinkS)`
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
+  text-align: center;
+  line-height: 1.2rem;
+  letter-spacing: 0.05rem;
 `;
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 240px;
-  gap: 1.5rem;
+  gap: 1.2rem;
 `;
 export const SocialIconLink = styled.a`
   color: #fff;

@@ -18,9 +18,9 @@ import {
 import {
   FaFacebook,
   FaInstagram,
-  // FaLinkedin,
+  FaLinkedin,
   FaYoutube,
-  // FaTwitter,
+  FaTwitter,
 } from "react-icons/fa";
 
 export const Footer = () => {
@@ -56,7 +56,7 @@ export const Footer = () => {
               <FooterLink to="/">Waranties</FooterLink>
               <FooterLink to="/">Sponsorships</FooterLink>
             </FooterLinkItems>
-            <FooterLinkItems>
+            {/* <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
               <FooterLink to="/">Youtube</FooterLink>
               <FooterLink to="/">Twitter</FooterLink>
@@ -64,13 +64,24 @@ export const Footer = () => {
               <FooterLink to="/">Whatsapp</FooterLink>
               <FooterLink to="/">Instagram</FooterLink>
               <FooterLink to="/">Facebook</FooterLink>
-            </FooterLinkItems>
+            </FooterLinkItems> */}
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/hero">hollarx</SocialLogo>
+            <SocialLogo
+              to="/hero"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              hollarx
+            </SocialLogo>
             <WebsiteRights>
+              +2347033003154 | +2348169279994 <br />
+              hollarxmobilecommunication@gmail.com <br />
               hollarx &copy; {new Date().getFullYear()} All right reserverd.{" "}
             </WebsiteRights>
             <SocialIcons>
@@ -88,20 +99,20 @@ export const Footer = () => {
               >
                 <FaYoutube />
               </SocialIconLink>
-              {/* <SocialIconLink
+              <SocialIconLink
                 href="https://linkedin.com"
                 target="_blank"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin />
-              </SocialIconLink> */}
-              {/* <SocialIconLink
+              </SocialIconLink>
+              <SocialIconLink
                 href="https://twitter.com"
                 target="_blank"
                 aria-label="Twitter"
               >
                 <FaTwitter />
-              </SocialIconLink> */}
+              </SocialIconLink>
               <SocialIconLink
                 href="https://www.instagram.com/hollarxmobile/"
                 target="_blank"

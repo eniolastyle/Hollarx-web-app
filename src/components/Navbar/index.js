@@ -14,7 +14,7 @@ import {
   NavBtnLink,
 } from "../../styles";
 
-export const Navbar = ({ toggle }) => {
+export const Navbar = ({ toggle, notHero }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -35,7 +35,7 @@ export const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
+      <Nav scrollNav={scrollNav} notHero={notHero}>
         <NavContainer>
           <NavLogo to="/" onClick={toggleHome}>
             hollarx
@@ -89,7 +89,7 @@ export const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Projects
+                Success
               </NavLinks>
             </NavItem>
           </NavMenu>
