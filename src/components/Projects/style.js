@@ -100,8 +100,9 @@ export const PartnerContainer = styled.div`
   justify-content: center;
   gap: 2.5rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 520px) {
     gap: 0.5rem;
     flex-direction: column;
   }

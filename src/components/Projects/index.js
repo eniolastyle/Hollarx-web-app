@@ -11,6 +11,7 @@ import Part2 from "../../images/part-2.png";
 import Part3 from "../../images/part-3.png";
 import Part4 from "../../images/part-4.png";
 import Part5 from "../../images/part-5.png";
+import Part6 from "../../images/part-6.png";
 import {
   ProjectsContainer,
   ProjectsH1,
@@ -158,6 +159,7 @@ export const Projects = () => {
       </Pagination>
       <PartnerContainer>
         <PartnerImg src={Part3} />
+        <PartnerImg src={Part6} />
         <PartnerImg src={Part2} />
         <PartnerImg src={Part1} />
         <PartnerImg src={Part4} />
