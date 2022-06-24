@@ -41,11 +41,11 @@ export const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Courses</FooterLinkTitle>
               <FooterLink to="/">Basic Electronics</FooterLink>
-              <FooterLink to="/">Mobile Technology</FooterLink>
-              <FooterLink to="/">Mobile Hardware</FooterLink>
+              <FooterLink to="/">Mobile Engineering</FooterLink>
+              <FooterLink to="/">PCB Designs</FooterLink>
+              <FooterLink to="/">Product Designs</FooterLink>
+              <FooterLink to="/">Mobile Programing</FooterLink>
               <FooterLink to="/">Career Mentorship</FooterLink>
-              <FooterLink to="/">Mobile Software</FooterLink>
-              <FooterLink to="/">Hardware Programing</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>

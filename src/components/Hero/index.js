@@ -30,10 +30,10 @@ export const HeroSection = () => {
         <HeroH1>Mobile Technology Innovation</HeroH1>
         <HeroP>
           Training outstanding Mobile technology Engineers in Nigeria and
-          beyond. Aspiring to be the leading mobile components producer in
-          Africa
+          beyond. Aspiring to be impact Nigeria's economy with the full force of
+          Mobile Technologies.
         </HeroP>
-        <HeroSpan>Efficiency we speak</HeroSpan>
+        <HeroSpan>SINCE 2020</HeroSpan>
         <HeroBtnWrapper>
           <Button
             to="about"

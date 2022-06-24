@@ -1,9 +1,13 @@
 import React, { useState } from "react";
+import Future01 from "../../images/future01.jpg";
 import Future1 from "../../images/future1.jpg";
-import Future2 from "../../images/future2.jpg";
+import Future02 from "../../images/future02.jpg";
+// import Future2 from "../../images/future2.jpg";
+import Future03 from "../../images/future03.jpg";
 import Future3 from "../../images/future3.jpg";
+import ivtech from "../../images/ivtech.jpg";
 import National from "../../images/national.jpg";
-import Kwaptech from "../../images/kwaptech.jpg";
+// import Kwaptech from "../../images/kwaptech.jpg";
 import Quix from "../../images/quix.jpg";
 import Zonal from "../../images/zonal.jpg";
 import Part1 from "../../images/part-1.png";
@@ -55,17 +59,19 @@ export const Projects = () => {
         {morePro === 0 && (
           <>
             <ProjectsCard>
-              <ProjectsImg src={Future1} />
+              <ProjectsImg src={Future02} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                An Inspiring and educating session at Virtuos Sprout Academy.
+                An Inspiring and educating session at Diamond FM enlightening
+                our youths on mobile technology.
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={Future2} />
+              <ProjectsImg src={Future01} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                Exchanging words of development with the inspired young souls.
+                Exchanging words of hope with the inspired students of Ahbabud
+                dinil Islami College, Ilorin-south LGA, Ilorin.
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
@@ -73,7 +79,7 @@ export const Projects = () => {
               <ProjectsH2>Mobile Ecosystem</ProjectsH2>
               <ProjectsP>
                 Hollarx CEO recieving award of Excellence from KWAPTECH
-                President.
+                President, Engineer Amir at Zone C Headquater launch.
               </ProjectsP>
             </ProjectsCard>
           </>
@@ -82,10 +88,11 @@ export const Projects = () => {
         {morePro === 1 && (
           <>
             <ProjectsCard>
-              <ProjectsImg src={Kwaptech} />
-              <ProjectsH2>Kwaptech</ProjectsH2>
+              <ProjectsImg src={Future03} />
+              <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                Hollarx CEO at the launching of KWAPTECH annual magazine.
+                Another view of the CTO's passionate conversation with the
+                students of Ahbabud dinil Islami.
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
@@ -100,7 +107,8 @@ export const Projects = () => {
               <ProjectsImg src={Future3} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                The CTO while presenting to the students on Mobile Enigineering.
+                The CTO while presenting to the students on Mobile Enigineering
+                at Virtuos Sprout Academy.
               </ProjectsP>
             </ProjectsCard>
           </>
@@ -112,22 +120,26 @@ export const Projects = () => {
               <ProjectsImg src={Quix} />
               <ProjectsH2>Quix</ProjectsH2>
               <ProjectsP>
-                Posters of marketing Quix. An innovation company Hollarx
-                partnered with.
+                Posters of marketing Quix Protection. An innovation company
+                Hollarx partnered with, from the United States of America.
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={Future3} />
+              <ProjectsImg src={Future1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                The CTO while presenting to the students on Mobile Enigineering.
+                Introductory session at the Virtuos Sprouts Academy with the
+                Hollarx team lead by the CEO and CTO, downtown Ilorin-south,
+                Ilorin.
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={Future3} />
+              <ProjectsImg src={ivtech} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                The CTO while presenting to the students on Mobile Enigineering.
+                A student workshop view taken while the Hollarx team visited the
+                International Vocational and Technical Education Center in Kwara
+                State.
               </ProjectsP>
             </ProjectsCard>
           </>
