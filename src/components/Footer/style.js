@@ -6,7 +6,7 @@ export const FooterContainer = styled.div`
   background: #101522;
 `;
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
+  padding: 40px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,8 +111,7 @@ export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
   text-align: center;
-  /* line-height: 1.2rem;
-  letter-spacing: 0.05rem; */
+  /* line-height: 1.5; */
 `;
 export const SocialIcons = styled.div`
   display: flex;

@@ -81,7 +81,7 @@ export const Footer = () => {
             </SocialLogo>
             <WebsiteRights>
               +2347033003154 | +2348169279994 <br />
-              hollarxmobilecommunication@gmail.com <br />
+              hollarx24@gmail.com <br />
               hollarx &copy; {new Date().getFullYear()} All right reserverd.{" "}
             </WebsiteRights>
             <SocialIcons>
