@@ -1,21 +1,23 @@
-import React, { useState } from "react";
-import Future01 from "../../images/future01.jpg";
-import Future1 from "../../images/future1.jpg";
-import Future02 from "../../images/future02.jpg";
-// import Future2 from "../../images/future2.jpg";
-import Future03 from "../../images/future03.jpg";
-import Future3 from "../../images/future3.jpg";
-import ivtech from "../../images/ivtech.jpg";
-import National from "../../images/national.jpg";
-// import Kwaptech from "../../images/kwaptech.jpg";
-import Quix from "../../images/quix.jpg";
-import Zonal from "../../images/zonal.jpg";
-import Part1 from "../../images/part-1.png";
-import Part2 from "../../images/part-2.png";
-import Part3 from "../../images/part-3.png";
-import Part4 from "../../images/part-4.png";
-import Part5 from "../../images/part-5.png";
-import Part6 from "../../images/part-6.png";
+import React, { useState } from 'react';
+// import Future01 from "../../images/future01.jpg";
+// import Future1 from "../../images/future1.jpg";
+// import Future02 from "../../images/future02.jpg";
+// // import Future2 from "../../images/future2.jpg";
+// import Future03 from "../../images/future03.jpg";
+// import Future3 from "../../images/future3.jpg";
+// import ivtech from "../../images/ivtech.jpg";
+// import National from "../../images/national.jpg";
+// // import Kwaptech from "../../images/kwaptech.jpg";
+// import Quix from "../../images/quix.jpg";
+import Img1 from '../../images/1.jpg';
+import Img2 from '../../images/2.jpeg';
+// import Zonal from '../../images/zonal.jpg';
+import Part1 from '../../images/part-1.png';
+import Part2 from '../../images/part-2.png';
+import Part3 from '../../images/part-3.png';
+import Part4 from '../../images/part-4.png';
+import Part5 from '../../images/part-5.png';
+import Part6 from '../../images/part-6.png';
 import {
   ProjectsContainer,
   ProjectsH1,
@@ -33,7 +35,7 @@ import {
   PartnerImg,
   ProjectLink,
   Pagination,
-} from "../../styles";
+} from '../../styles';
 
 export const Projects = () => {
   const [hover, setHover] = useState(false);
@@ -53,13 +55,13 @@ export const Projects = () => {
   };
 
   return (
-    <ProjectsContainer id="projects">
+    <ProjectsContainer id='projects'>
       <ProjectsH1>Success Stories</ProjectsH1>
       <ProjectsWrapper>
         {morePro === 0 && (
           <>
             <ProjectsCard>
-              <ProjectsImg src={Future02} />
+              <ProjectsImg src={Img1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
                 An Inspiring and educating session at Diamond FM enlightening
@@ -67,7 +69,7 @@ export const Projects = () => {
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={Future01} />
+              <ProjectsImg src={Img1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
                 Exchanging words of hope with the inspired students of Ahbabud
@@ -75,7 +77,7 @@ export const Projects = () => {
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={Zonal} />
+              <ProjectsImg src={Img1} />
               <ProjectsH2>Mobile Ecosystem</ProjectsH2>
               <ProjectsP>
                 Hollarx CEO recieving award of Excellence from KWAPTECH
@@ -88,7 +90,7 @@ export const Projects = () => {
         {morePro === 1 && (
           <>
             <ProjectsCard>
-              <ProjectsImg src={Future03} />
+              <ProjectsImg src={Img2} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
                 Another view of the CTO's passionate conversation with the
@@ -96,7 +98,7 @@ export const Projects = () => {
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={National} />
+              <ProjectsImg src={Img2} />
               <ProjectsH2>Mobile Ecosystem</ProjectsH2>
               <ProjectsP>
                 The CEO at a national meeting for mobile engineering development
@@ -104,7 +106,7 @@ export const Projects = () => {
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={Future3} />
+              <ProjectsImg src={Img2} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
                 The CTO while presenting to the students on Mobile Enigineering
@@ -117,7 +119,7 @@ export const Projects = () => {
         {morePro === 2 && (
           <>
             <ProjectsCard>
-              <ProjectsImg src={Quix} />
+              <ProjectsImg src={Img1} />
               <ProjectsH2>Quix</ProjectsH2>
               <ProjectsP>
                 Posters of marketing Quix Protection. An innovation company
@@ -125,7 +127,7 @@ export const Projects = () => {
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={Future1} />
+              <ProjectsImg src={Img1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
                 Introductory session at the Virtuos Sprouts Academy with the
@@ -134,7 +136,7 @@ export const Projects = () => {
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-              <ProjectsImg src={ivtech} />
+              <ProjectsImg src={Img1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
                 A student workshop view taken while the Hollarx team visited the

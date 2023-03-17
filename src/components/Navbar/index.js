@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { FaBars } from "react-icons/fa";
-import { BsHandbag } from "react-icons/bs";
-import { animateScroll as scroll } from "react-scroll";
+import React, { useState, useEffect } from 'react';
+import { FaBars } from 'react-icons/fa';
+import { BsHandbag } from 'react-icons/bs';
+import { animateScroll as scroll } from 'react-scroll';
 import {
   Nav,
   NavContainer,
@@ -12,7 +12,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
-} from "../../styles";
+} from '../../styles';
 
 export const Navbar = ({ toggle, notHero }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -26,7 +26,7 @@ export const Navbar = ({ toggle, notHero }) => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    window.addEventListener('scroll', changeNav);
   }, []);
 
   const toggleHome = () => {
@@ -37,7 +37,7 @@ export const Navbar = ({ toggle, notHero }) => {
     <>
       <Nav scrollNav={scrollNav} notHero={notHero}>
         <NavContainer>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo to='/' onClick={toggleHome}>
             hollarx
           </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -46,11 +46,11 @@ export const Navbar = ({ toggle, notHero }) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to="about"
+                to='about'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
                 About
@@ -58,11 +58,11 @@ export const Navbar = ({ toggle, notHero }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="discover"
+                to='discover'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
                 Discover
@@ -70,11 +70,11 @@ export const Navbar = ({ toggle, notHero }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="services"
+                to='services'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
                 Services
@@ -82,11 +82,11 @@ export const Navbar = ({ toggle, notHero }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="projects"
+                to='projects'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
                 Success
@@ -94,9 +94,9 @@ export const Navbar = ({ toggle, notHero }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signup">
+            <NavBtnLink to='/signup'>
               <BsHandbag />
-              <span>Shop</span>
+              <span>Shop Go!</span>
             </NavBtnLink>
           </NavBtn>
         </NavContainer>
