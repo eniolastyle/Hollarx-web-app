@@ -64,24 +64,21 @@ export const Projects = () => {
               <ProjectsImg src={Img1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                An Inspiring and educating session at Diamond FM enlightening
-                our youths on mobile technology.
+                .
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
               <ProjectsImg src={Img1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                Exchanging words of hope with the inspired students of Ahbabud
-                dinil Islami College, Ilorin-south LGA, Ilorin.
+                .
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
               <ProjectsImg src={Img1} />
               <ProjectsH2>Mobile Ecosystem</ProjectsH2>
               <ProjectsP>
-                Hollarx CEO recieving award of Excellence from KWAPTECH
-                President, Engineer Amir at Zone C Headquater launch.
+                .
               </ProjectsP>
             </ProjectsCard>
           </>
@@ -93,24 +90,21 @@ export const Projects = () => {
               <ProjectsImg src={Img2} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                Another view of the CTO's passionate conversation with the
-                students of Ahbabud dinil Islami.
+                .
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
               <ProjectsImg src={Img2} />
               <ProjectsH2>Mobile Ecosystem</ProjectsH2>
               <ProjectsP>
-                The CEO at a national meeting for mobile engineering development
-                in Oyo State.
+                .
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
               <ProjectsImg src={Img2} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                The CTO while presenting to the students on Mobile Enigineering
-                at Virtuos Sprout Academy.
+                .
               </ProjectsP>
             </ProjectsCard>
           </>
@@ -122,26 +116,21 @@ export const Projects = () => {
               <ProjectsImg src={Img1} />
               <ProjectsH2>Quix</ProjectsH2>
               <ProjectsP>
-                Posters of marketing Quix Protection. An innovation company
-                Hollarx partnered with, from the United States of America.
+                .
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
               <ProjectsImg src={Img1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                Introductory session at the Virtuos Sprouts Academy with the
-                Hollarx team lead by the CEO and CTO, downtown Ilorin-south,
-                Ilorin.
+                .
               </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
               <ProjectsImg src={Img1} />
               <ProjectsH2>Future I</ProjectsH2>
               <ProjectsP>
-                A student workshop view taken while the Hollarx team visited the
-                International Vocational and Technical Education Center in Kwara
-                State.
+                .
               </ProjectsP>
             </ProjectsCard>
           </>
