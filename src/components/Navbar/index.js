@@ -96,7 +96,7 @@ export const Navbar = ({ toggle, notHero }) => {
           <NavBtn>
             <NavBtnLink to='/signup'>
               <BsHandbag />
-              <span>Shop Go!</span>
+              <span>Mega Shop!</span>
             </NavBtnLink>
           </NavBtn>
         </NavContainer>
